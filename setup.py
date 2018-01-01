@@ -10,6 +10,12 @@ setup(name='TVcrawler',
     author='Doruk Gezici',
     author_email='dorukgezici@gmail.com',
     license='MIT',
+    classifiers=[
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3'
+    ],
     packages=['TVcrawler'],
     install_requires=['requests'],
     scripts=['bin/TVcrawler'],
